@@ -44,6 +44,7 @@ ffmpeg
 nmap
 shpotify
 wget
+youtube-dl
 )
 
 # Install Formulas
@@ -66,6 +67,7 @@ appcasks=(
 airserver
 avast-security
 discord
+geoip
 google-chrome
 kindle
 microsoft-office
