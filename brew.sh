@@ -24,6 +24,7 @@ devformula=(
 azure-cli
 bash-completion
 brew-cask-completion
+dotnet-sdk
 golang
 goenv
 hugo
