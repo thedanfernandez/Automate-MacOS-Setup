@@ -31,6 +31,10 @@ jq
 kubectx
 kubernetes-cli
 kubernetes-helm
+npm
+typescript
+yarn
+yarn-completion
 )
 
 # CLI & Utility
