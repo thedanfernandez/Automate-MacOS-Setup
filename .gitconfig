@@ -1,0 +1,16 @@
+[user]
+	name = Dan Fernandez
+	email = dan@danfernandez.me
+[credential]
+	helper = osxkeychain
+[color]
+  ui = auto
+[color "diff"]
+  meta = cyan bold
+  frag = magenta bold
+[color "status"]
+  untracked = cyan
+[color "branch"]
+  current = cyan reverse bold
+  local = green
+  remote = yellow

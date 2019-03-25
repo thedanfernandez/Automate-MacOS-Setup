@@ -1,0 +1,63 @@
+# Set Ruby path
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+
+# Set colors
+ export CLICOLOR=1
+ export LSCOLORS=ExFxBxDxCxegedabagacad
+ export GREP_OPTIONS=' — color=auto'
+
+
+parse_git_branch() {
+ git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\$(parse_git_branch)\[\033[m\]\$ "
+#export PS1="\e[0;35m\w\e[m \e[0;33m|\e[m \e[0;36m\$(parse_git_branch)\e[m\]\$ "
+
+#Aliases
+
+alias repo="cd ~/_Repos"
+
+# Source - https://medium.com/@tzhenghao/a-guide-to-building-a-great-bashrc-23c52e466b1c
+alias ..='cd ..'
+alias ...='cd ..; cd ..'
+alias ....='cd ..; cd ..; cd ..'
+
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+# Disk
+alias ll="ls -al"
+alias ls="ls  -a"
+alias df="df -h"
+
+# Networking
+alias localip="ipconfig getifaddr en0"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# git aliases
+alias gdf="git diff"
+alias gap="git add -p"
+alias gc="git commit -m"
+alias gs="git status"
+alias gco="git checkout"
+alias gul="git pull"
+alias gush="git push"
+alias gbra="git branch"
+alias glog="git log --pretty=format:'%h - %an: %s' --graph" # print out log with hash, author name, status, and include graph info
+
+# Determine size of a file or total size of a directory
+function fs() {
+	if du -b /dev/null > /dev/null 2>&1; then
+		local arg=-sbh;
+	else
+		local arg=-sh;
+	fi
+	if [[ -n "$@" ]]; then
+		du $arg -- "$@";
+	else
+		du $arg .[^.]* ./*;
+	fi;
+}

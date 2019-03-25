@@ -21,12 +21,14 @@ brew update
 
 # Developer Formula
 devformula=(
+aircrack-ng
 azure-cli
 bash-completion
 brew-cask-completion
 dotnet-sdk
 golang
 goenv
+gnu-sed
 hugo
 jq
 kubectx
@@ -68,9 +70,11 @@ appcasks=(
 airserver
 avast-security
 discord
+firefox
 geoip
 google-chrome
 kindle
+mas
 microsoft-office
 microsoft-teams
 pencil
@@ -107,3 +111,8 @@ for var in "${appcasks[@]}"
     brew cask install "${var}" --force
   done
 
+# TODO Add mas install apps - requires login first
+# mas lucky todoist
+# mas lucky giphy
+# mas lucky slack
+# mas lucky "Microsoft Remote Desktop"
