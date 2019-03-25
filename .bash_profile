@@ -40,6 +40,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # git aliases
 alias gdf="git diff"
 alias gap="git add -p"
+alias ga="git add ."
 alias gc="git commit -m"
 alias gs="git status"
 alias gco="git checkout"
