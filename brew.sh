@@ -35,6 +35,7 @@ kubectx
 kubernetes-cli
 kubernetes-helm
 npm
+python3
 typescript
 yarn
 yarn-completion
