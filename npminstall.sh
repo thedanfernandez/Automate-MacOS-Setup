@@ -17,7 +17,6 @@ npm install -g vue-devtools     # Browser dev tools
 npm install -g vue-CLI          # VueJS Project scaffolding
 npm install -g yo               # Yeoman scaffolding tool
 
-
 # Yo generators / project scaffolding
 npm install -g generator-azure-node     # Azure NodeJs projects
 npm install -g generator-code           # Visual Studio Code Projects
