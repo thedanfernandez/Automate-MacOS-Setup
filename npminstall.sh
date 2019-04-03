@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# To run, ensure npminstall.sh has execute set
-# With -g, must run as sudo "sudo ./npminstall.sh"
+#   Before running, ensure npminstall.sh has execute set
+# > chmod +x npminstall.sh
+# > "sudo ./npminstall.sh"
+#   Note: must run as sudo for -g (global flag) 
 
 # Install 
 npm install -g express          # Express JS frameowkr

@@ -1,7 +1,6 @@
-# Homebrew Bundle
-# Homebrew: https://brew.sh
-# Setup: Homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-# Run: Customize Brewfile and run "brew bundle --describe"
+# Homebrew Bundle, list of all brew/cask apps
+# run ./brew.sh or "brew bundle --describe"
+
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"

@@ -1,4 +1,11 @@
-#
+#!/bin/bash
+
+#   Before running ensure file is executable
+# > chmod +x macos.sh
+# > ./macos.sh
+
+echo "macos.sh script started"
+
 # Defaults from https://github.com/SixArm/mac-defaults/blob/master/mac-defaults 
 
 # Show hidden MacOS folders
@@ -50,3 +57,5 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 # Disable the all too sensitive backswipe on trackpads
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
+
+echo "macos.sh script finished"

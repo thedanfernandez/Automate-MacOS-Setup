@@ -1,25 +1,33 @@
 #!/bin/bash
-# Use Brewfile bundle instead
+
+# Brew is a command-line app package manager to download CLI apps/utilities (called formulas) or apps (called casks)
+# Before running ensure execute permissions
+# > chmod +x brew.sh
+# > ./brew.sh
+# Note: some cask apps require sudo. Do not run script as sudo, add password interactively
+
+echo "brew.sh script started"
+
+# Check for install, if not install it
+if test ! "$(which brew)"; then
+  echo "Installing homebrew"
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+# Echo brew version
+echo "Brew version brew --version"
+brew --version
+
+# Update before install
+brew update
+
+# Run Brew bundle, which will install everything in the file "Brewfile"
 brew bundle 
-
-# # brew is a command-line app package manager to download CLI apps/utilities (called formulas) or apps (called casks)
-
-# # Check for install, if not install it
-# if test ! "$(which brew)"; then
-#   echo "Installing homebrew"
-#   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-# fi
-
-# # Echo brew version
-# echo "Brew version brew --version"
-# brew --version
 
 # # Echo brew download location
 # echo "Brew install download location: brew --cache"
 # brew --cache
 
-# # Update before install
-# brew update
 
 # # Developer Formula
 # devformula=(
@@ -119,3 +127,5 @@ brew bundle
 # # mas lucky giphy
 # # mas lucky slack
 # # mas lucky "Microsoft Remote Desktop"
+
+echo "brew.sh script finished"
