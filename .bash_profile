@@ -16,7 +16,18 @@ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\$(parse_git
 
 #Aliases
 
+#Chrome for headless chrome
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+# Ex: chrome --headless --disable-gpu --screenshot https://www.chromestatus.com/
+# Ex: chrome --headless --disable-gpu --dump-dom https://www.chromestatus.com/
+
+alias screenshot="chrome --headless --disable-gpu --screenshot"
+alias html="chrome --headless --disable-gpu --dump-dom"
+
+# Folder for all repos
 alias repo="cd ~/_Repos"
+alias scratch="cd ~/_Repos/_scratchpad"
+alias scratchpad="cd ~/_Repos/_scratchpad"
 
 # Source - https://medium.com/@tzhenghao/a-guide-to-building-a-great-bashrc-23c52e466b1c
 alias ..='cd ..'

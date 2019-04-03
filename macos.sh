@@ -1,7 +1,6 @@
 #
 # Defaults from https://github.com/SixArm/mac-defaults/blob/master/mac-defaults 
 
-
 # Show hidden MacOS folders
 defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 
@@ -51,6 +50,3 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 # Disable the all too sensitive backswipe on trackpads
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
-
-#Install
-gem install sass
