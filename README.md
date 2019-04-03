@@ -12,41 +12,39 @@ Simple project to automate Brew, MacOS, and NPM Packages.
 
 1. Clone the project locally (or fork)
 
-```bash
+```
 > git clone https://github.com/thedanfernandez/Automate-MacOS-Setup.git
-```bash
+```
 
 2. Open Brewfile to add/edit/comment out CLI tools or apps. Use # to comment out or delete.
 
 
- ```bash
+```
 cask "postman"                              # REST-API tool
 cask "skype"                                # Skype client
 # cask "slack"                              # Slack client
 cask "spectacle"                            # Windows like move / resize windows
-
-````
+```
 
 You can run `brew bundle list` to confirm your Brewfile is configured correctly
-```bash
+```
 > brew bundle list
-```bash
-
+```
 
 3. Ensure any .sh files have execute permissions if needed
 
-```bash
+```
 > chmod +x brew.sh
 ```
 
 4. Open the terminal and run the scripts (ensure you put "./" as a prefix to the )
 
-```bash
+```
 > ./brew.sh
 ```
 
 Note: `npminstall.sh` expects NPM to be installed and must run as `sudo` if packages are installed globally (-g) flag.
-```bash
+```
 > sudo ./npminstall.sh
 ```
 
