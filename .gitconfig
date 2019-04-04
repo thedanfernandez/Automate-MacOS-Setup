@@ -1,6 +1,6 @@
 [user]
-	name = Dan Fernandez
-	email = dan@danfernandez.me
+	name = First Last
+	email = name@url
 [credential]
 	helper = osxkeychain
 [color]
