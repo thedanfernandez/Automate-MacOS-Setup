@@ -1,11 +1,14 @@
 # python3 files
 # setup: pip3 install --requirement=requirements.txt
-
-beautifulsoup4
-Jinja2
-MarkupSafe
-pandas
-requests
-soupsieve
-urllib3
-wheel
+# or run pipinstall.sh
+# Note no versions numbers included so this grabs latest
+beautifulsoup4          # Screen scraping
+Jinja2                  # Template engine
+MarkupSafe              # Safe encoding / escaping text
+openpyxl                # Read / Create Excel files
+pandas                  # Data Analysis
+pillow                  # Imaging library
+requests                # HTTP Client library
+soupsieve               # CSS selector for beautifulsoup4
+urllib3                 # HTTP Client library
+wheel                   # Python wheel packaging standard
