@@ -11,11 +11,14 @@ brew "baobab"                               # Disk Stats
 brew "bash-completion"                      # Bash Completion
 brew "cask"                                 # Required for GUI apps
 brew "ffmpeg"                               # Video editing
+brew "genact"                               # Random CLI simulator 
 brew "git"                                  # Dev tool 
+brew "git-extras"                           # Extra git commands for productivity / reporting
 brew "gnu-sed"                              # Dev tool (req)
 brew "golang"                               # Go Language tools
 brew "goenv"                                # Go version management
 brew "gnu-sed"                              # GNU version of sed
+brew "grafana"                              # grafana dashboard "brew services start grafana"
 brew "graphviz"                             # Python lib to visualize data 
 brew "hugo"                                 # Static site generator
 brew "jq"                                   # JSON command-line tool
