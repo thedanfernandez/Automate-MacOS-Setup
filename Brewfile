@@ -16,6 +16,7 @@ brew "gnu-sed"                              # Dev tool (req)
 brew "golang"                               # Go Language tools
 brew "goenv"                                # Go version management
 brew "gnu-sed"                              # GNU version of sed
+brew "graphviz"                             # Python lib to visualize data 
 brew "hugo"                                 # Static site generator
 brew "jq"                                   # JSON command-line tool
 # brew "kubectx"                            # Context switch for kubectl

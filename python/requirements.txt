@@ -1,0 +1,11 @@
+# python3 files
+# setup: pip3 install --requirement=requirements.txt
+
+beautifulsoup4
+Jinja2
+MarkupSafe
+pandas
+requests
+soupsieve
+urllib3
+wheel
