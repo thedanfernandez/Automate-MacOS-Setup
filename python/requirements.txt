@@ -6,10 +6,13 @@ beautifulsoup4          # Screen scraping
 graphviz                # Visualization library
 Jinja2                  # Template engine
 jupyter                 # Jupyter Notebooks
+Markdown                # Markdown parser
 MarkupSafe              # Safe encoding / escaping text
+mdv                     # CLI markdown preview
 openpyxl                # Read / Create Excel files
 pandas                  # Data Analysis
 pillow                  # Imaging library
+pyyaml                  # YAML parser
 requests                # HTTP Client library
 soupsieve               # CSS selector for beautifulsoup4
 urllib3                 # HTTP Client library

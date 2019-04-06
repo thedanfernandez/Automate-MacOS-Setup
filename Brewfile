@@ -26,9 +26,10 @@ brew "jq"                                   # JSON command-line tool
 # brew "kubernetes-cli"                     # Kubernetes cLI
 # brew "kubernetes-helm"                    # Helm client for Kubernetes
 brew "mas"                                  # Mac App store app to download existing apps
-brew "nmap"                                 # Network utlitity
+brew "nmap"                                 # Network utility
 brew "node", link: false                    # Nodejs language tools
 brew "npm"                                  # Node Package Manager
+brew "pandoc"                               # File format converter
 brew "python3"                              # Python 3 including pip3
 brew "shpotify"                             # CLI for Spotify on Mac
 brew "tldr"                                 # simple, community-drive man pages
@@ -46,7 +47,7 @@ cask "airserver"                            # Airplay or Google Cast to Mac
 cask "background-music"                     # Windows-like per-app audio control
 cask "dash"                                 # Documentation client
 cask "docker"                               # Docker container tools
-cask "dotnet-sdk"                           # .NET lagnguage tools
+cask "dotnet-sdk"                           # .NET language tools
 cask "discord"                              # Discord client (voice chat)
 cask "firefox"                              # Firefox browser
 cask "google-chrome"                        # Chrome browser

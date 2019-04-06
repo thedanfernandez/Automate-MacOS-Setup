@@ -23,6 +23,7 @@ alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 
 alias screenshot="chrome --headless --disable-gpu --screenshot"
 alias html="chrome --headless --disable-gpu --dump-dom"
+alias md="mdv"
 
 # Folder for all repos
 alias repo="cd ~/_Repos"
