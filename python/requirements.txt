@@ -3,7 +3,9 @@
 # or run pipinstall.sh
 # Note no versions numbers included so this grabs latest
 beautifulsoup4          # Screen scraping
+graphviz                # Visualization library
 Jinja2                  # Template engine
+jupyter                 # Jupyter Notebooks
 MarkupSafe              # Safe encoding / escaping text
 openpyxl                # Read / Create Excel files
 pandas                  # Data Analysis
