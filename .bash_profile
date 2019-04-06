@@ -5,8 +5,6 @@ export PATH=$HOME/gems/bin:$PATH
 # Set colors
  export CLICOLOR=1
  export LSCOLORS=ExFxBxDxCxegedabagacad
- export GREP_OPTIONS=' — color=auto'
-
 
 parse_git_branch() {
  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
