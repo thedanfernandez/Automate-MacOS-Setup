@@ -19,7 +19,8 @@ brew "golang"                               # Go Language tools
 brew "goenv"                                # Go version management
 brew "gnu-sed"                              # GNU version of sed
 brew "grafana"                              # grafana dashboard "brew services start grafana"
-brew "graphviz"                             # Python lib to visualize data
+brew "graphviz"                             # Lib to visualize data
+brew "htop"                                 # Better process tool
 brew "hugo"                                 # Static site generator
 brew "jq"                                   # JSON command-line tool
 # brew "kubectx"                            # Context switch for kubectl
