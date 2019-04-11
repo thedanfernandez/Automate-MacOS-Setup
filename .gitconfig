@@ -1,6 +1,6 @@
 [user]
-	name = First Last
-	email = name@url
+	name = Dan Fernandez
+	email = dan@danfernandez.me
 [credential]
 	helper = osxkeychain
 [color]
@@ -14,3 +14,5 @@
   current = cyan reverse bold
   local = green
   remote = yellow
+[core]
+	editor = code
