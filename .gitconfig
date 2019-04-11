@@ -15,4 +15,4 @@
   local = green
   remote = yellow
 [core]
-	editor = code
+	editor = code --wait
