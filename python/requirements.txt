@@ -10,8 +10,11 @@ Markdown                # Markdown parser
 MarkupSafe              # Safe encoding / escaping text
 mdv                     # CLI markdown preview
 openpyxl                # Read / Create Excel files
+notebook                # Jupyter notebook
 pandas                  # Data Analysis
 pillow                  # Imaging library
+matplotlib              # Graphing library
+pytest                  # Unit testing Fx
 pyyaml                  # YAML parser
 requests                # HTTP Client library
 soupsieve               # CSS selector for beautifulsoup4
