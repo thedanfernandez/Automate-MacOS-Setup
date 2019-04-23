@@ -31,7 +31,6 @@ brew "nmap"                                 # Network utility
 brew "node", link: false                    # Nodejs language tools
 brew "npm"                                  # Node Package Manager
 brew "pandoc"                               # File format converter
-# brew "powershell"                         # PowerShell CLI
 brew "python3"                              # Python 3 including pip3
 brew "shpotify"                             # CLI for Spotify on Mac
 brew "tldr"                                 # simple, community-drive man pages
@@ -60,6 +59,7 @@ cask "microsoft-office"                     # Microsoft Office
 cask "microsoft-teams"                      # Teams client
 cask "minikube"                             # Local Kubernetes tool
 cask "postman"                              # REST-API tool
+# cask "powershell"                         # PowerShell CLI
 cask "skype"                                # Skype client
 cask "slack"                                # Slack client
 cask "spectacle"                            # Windows like move / resize windows
