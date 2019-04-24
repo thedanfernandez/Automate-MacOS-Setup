@@ -16,6 +16,9 @@ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\$(parse_git
 
 #Aliases
 
+#PowerShell
+alias powershell="/usr/local/microsoft/powershell/6/pwsh ; exit;"
+
 #Chrome for headless chrome
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 # Ex: chrome --headless --disable-gpu --screenshot https://www.chromestatus.com/
