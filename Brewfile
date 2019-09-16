@@ -27,6 +27,7 @@ brew "jq"                                   # JSON command-line tool
 # brew "kubernetes-cli"                     # Kubernetes cLI
 # brew "kubernetes-helm"                    # Helm client for Kubernetes
 brew "mas"                                  # Mac App store app to download existing apps
+brew "mitmproxy"                            # Free proxy for analyzing web traffic (like Fiddler)
 brew "nmap"                                 # Network utility
 brew "node", link: false                    # Nodejs language tools
 brew "npm"                                  # Node Package Manager
@@ -44,6 +45,7 @@ brew "zsh"                                  # Z Shell
 brew "zsh-completions"                      # Z Shell completions
 cask "1password"                            # Password client service app
 cask "airserver"                            # Airplay or Google Cast to Mac
+cask "anki"                                 # Anki - intelligent and social flash cards
 # cask "avast-security"                     # Antivirus
 cask "background-music"                     # Windows-like per-app audio control
 cask "dash"                                 # Documentation client
@@ -52,6 +54,7 @@ cask "dotnet-sdk"                           # .NET language tools
 cask "discord"                              # Discord client (voice chat)
 cask "firefox"                              # Firefox browser
 cask "google-chrome"                        # Chrome browser
+cask "kap"                                  # Screen capture animated gifs
 cask "keepingyouawake"                      # Keeps MacOS from going to sleep indefinitely
 cask "kindle"                               # Amazon Kindle app
 cask "microsoft-azure-storage-explorer"     # Azure GUI Storage Tool
