@@ -5,7 +5,10 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "azure/functions"
+tap "homebrew/cask-fonts"
 brew "azure-cli"                            # Azure CLI
+brew "azure-functions-core-tools"
 # brew "aircrack-ng"                        # Wifi network security tool (blocked by Avast)
 brew "baobab"                               # Disk Stats
 brew "bash-completion"                      # Bash Completion
@@ -53,6 +56,7 @@ cask "docker"                               # Docker container tools
 cask "dotnet-sdk"                           # .NET language tools
 cask "discord"                              # Discord client (voice chat)
 cask "firefox"                              # Firefox browser
+cask "font-cascadia"                        # Cascadia dev font
 cask "google-chrome"                        # Chrome browser
 cask "kap"                                  # Screen capture animated gifs
 cask "keepingyouawake"                      # Keeps MacOS from going to sleep indefinitely
