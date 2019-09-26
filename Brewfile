@@ -58,6 +58,7 @@ cask "microsoft-azure-storage-explorer"     # Azure GUI Storage Tool
 cask "microsoft-office"                     # Microsoft Office
 cask "microsoft-teams"                      # Teams client
 cask "minikube"                             # Local Kubernetes tool
+cask "mongodb"                              # MongoDB database
 cask "postman"                              # REST-API tool
 cask "skype"                                # Skype client
 cask "slack"                                # Slack client
