@@ -5,7 +5,10 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "azure/functions"
+tap "homebrew/cask-fonts"
 brew "azure-cli"                            # Azure CLI
+brew "azure-functions-core-tools"
 # brew "aircrack-ng"                        # Wifi network security tool (blocked by Avast)
 brew "baobab"                               # Disk Stats
 brew "bash-completion"                      # Bash Completion
@@ -27,6 +30,7 @@ brew "jq"                                   # JSON command-line tool
 # brew "kubernetes-cli"                     # Kubernetes cLI
 # brew "kubernetes-helm"                    # Helm client for Kubernetes
 brew "mas"                                  # Mac App store app to download existing apps
+brew "mitmproxy"                            # Free proxy for analyzing web traffic (like Fiddler)
 brew "nmap"                                 # Network utility
 brew "node", link: false                    # Nodejs language tools
 brew "npm"                                  # Node Package Manager
@@ -44,6 +48,7 @@ brew "zsh"                                  # Z Shell
 brew "zsh-completions"                      # Z Shell completions
 cask "1password"                            # Password client service app
 cask "airserver"                            # Airplay or Google Cast to Mac
+cask "anki"                                 # Anki - intelligent and social flash cards
 # cask "avast-security"                     # Antivirus
 cask "background-music"                     # Windows-like per-app audio control
 cask "dash"                                 # Documentation client
@@ -51,7 +56,9 @@ cask "docker"                               # Docker container tools
 cask "dotnet-sdk"                           # .NET language tools
 cask "discord"                              # Discord client (voice chat)
 cask "firefox"                              # Firefox browser
+cask "font-cascadia"                        # Cascadia dev font
 cask "google-chrome"                        # Chrome browser
+cask "kap"                                  # Screen capture animated gifs
 cask "keepingyouawake"                      # Keeps MacOS from going to sleep indefinitely
 cask "kindle"                               # Amazon Kindle app
 cask "microsoft-azure-storage-explorer"     # Azure GUI Storage Tool
@@ -60,6 +67,7 @@ cask "microsoft-teams"                      # Teams client
 cask "minikube"                             # Local Kubernetes tool
 cask "mongodb"                              # MongoDB database
 cask "postman"                              # REST-API tool
+# cask "powershell"                         # PowerShell CLI
 cask "skype"                                # Skype client
 cask "slack"                                # Slack client
 cask "spectacle"                            # Windows like move / resize windows
