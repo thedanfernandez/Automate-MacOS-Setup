@@ -68,6 +68,7 @@ cask "minikube"                             # Local Kubernetes tool
 cask "mongodb"                              # MongoDB database
 cask "postman"                              # REST-API tool
 # cask "powershell"                         # PowerShell CLI
+cask "robo-3t"                              # MongoDB data tool
 cask "skype"                                # Skype client
 cask "slack"                                # Slack client
 cask "spectacle"                            # Windows like move / resize windows
