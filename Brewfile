@@ -44,8 +44,9 @@ brew "yarn"                                 # JS/Node package
 brew "yarn-completion"                      # Statement completion for Yarn
 brew "wget"                                 # File download
 brew "youtube-dl"                           # CLI to download Youtube videos
-brew "zsh"                                  # Z Shell
-brew "zsh-completions"                      # Z Shell completions
+brew "zsh"                                  # ZSH
+brew "zsh-syntax-highlighting"              # ZSH syntax highlighting
+brew "zsh-autosuggestions"                  # ZSH suggestions
 cask "1password"                            # Password client service app
 cask "airserver"                            # Airplay or Google Cast to Mac
 cask "anki"                                 # Anki - intelligent and social flash cards
