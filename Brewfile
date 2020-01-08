@@ -62,6 +62,7 @@ cask "google-chrome"                        # Chrome browser
 cask "kap"                                  # Screen capture animated gifs
 cask "keepingyouawake"                      # Keeps MacOS from going to sleep indefinitely
 cask "kindle"                               # Amazon Kindle app
+cask "iterm2"                               # Terminal Window app
 cask "microsoft-azure-storage-explorer"     # Azure GUI Storage Tool
 cask "microsoft-office"                     # Microsoft Office
 cask "microsoft-teams"                      # Teams client
@@ -73,7 +74,7 @@ cask "robo-3t"                              # MongoDB data tool
 cask "skype"                                # Skype client
 cask "slack"                                # Slack client
 cask "spectacle"                            # Windows like move / resize windows
-cask "spoof"                                # Spoof MAC Address
+cask "wifispoof"                                # Spoof MAC Address
 cask "spotify"                              # Music service
 cask "steam"                                # Gaming service
 cask "suspicious-package"                   # Inspect Mac app packages before installing
