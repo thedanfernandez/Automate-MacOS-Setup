@@ -20,6 +20,6 @@ cd fonts
 cd ..
 rm -rf fonts
 
-echo "Change the default font to one of these fonts: https://github.com/powerline/fonts#font-families in your terminal"
+echo "Change the default font to one of these fontsgs: https://github.com/powerline/fonts#font-families in your terminal"
 
 echo "Replace/Update file ~/.zshrc"
