@@ -56,6 +56,9 @@ cask "dash"                                 # Documentation client
 cask "docker"                               # Docker container tools
 cask "dotnet-sdk"                           # .NET language tools
 cask "discord"                              # Discord client (voice chat)
+cask "epic-games"                           # Epic Games
+cask "expressvpn"                           # Express VPN
+cask "figma"                                # Figma client
 cask "firefox"                              # Firefox browser
 cask "font-cascadia"                        # Cascadia dev font
 cask "google-chrome"                        # Chrome browser
@@ -67,19 +70,18 @@ cask "microsoft-azure-storage-explorer"     # Azure GUI Storage Tool
 cask "microsoft-office"                     # Microsoft Office
 cask "microsoft-teams"                      # Teams client
 cask "minikube"                             # Local Kubernetes tool
-cask "mongodb"                              # MongoDB database
+# cask "mongodb"                              # MongoDB database
 cask "postman"                              # REST-API tool
 # cask "powershell"                         # PowerShell CLI
 cask "robo-3t"                              # MongoDB data tool
 cask "skype"                                # Skype client
 cask "slack"                                # Slack client
 cask "spectacle"                            # Windows like move / resize windows
-cask "wifispoof"                                # Spoof MAC Address
+cask "wifispoof"                            # Spoof MAC Address
 cask "spotify"                              # Music service
 cask "steam"                                # Gaming service
 cask "suspicious-package"                   # Inspect Mac app packages before installing
 cask "vlc"                                  # Play-everything media player
-cask "vyprvpn"                              # VPN
 mas "", id: 445770608
 mas "", id: 425955336
 mas "", id: 668208984
