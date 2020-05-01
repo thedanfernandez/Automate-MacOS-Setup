@@ -35,6 +35,7 @@ brew "mitmproxy"                            # Free proxy for analyzing web traff
 brew "nmap"                                 # Network utility
 brew "node", link: false                    # Nodejs language tools
 brew "npm"                                  # Node Package Manager
+brew "nvm"                                  # Node Version Manager
 brew "pandoc"                               # File format converter
 brew "python3"                              # Python 3 including pip3
 brew "shpotify"                             # CLI for Spotify on Mac
