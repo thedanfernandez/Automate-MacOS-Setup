@@ -74,6 +74,7 @@ cask "microsoft-teams"                      # Teams client
 cask "minikube"                             # Local Kubernetes tool
 # cask "mongodb"                              # MongoDB database
 cask "postman"                              # REST-API tool
+cask "postgres"                             # Postgres client app
 # cask "powershell"                         # PowerShell CLI
 cask "robo-3t"                              # MongoDB data tool
 cask "skype"                                # Skype client
