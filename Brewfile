@@ -72,7 +72,8 @@ cask "microsoft-azure-storage-explorer"     # Azure GUI Storage Tool
 cask "microsoft-office"                     # Microsoft Office
 cask "microsoft-teams"                      # Teams client
 cask "minikube"                             # Local Kubernetes tool
-# cask "mongodb"                              # MongoDB database
+# cask "mongodb"                            # MongoDB database
+cask "pgadmin4"                             # Postgres Admin tool
 cask "postman"                              # REST-API tool
 cask "postgres"                             # Postgres client app
 # cask "powershell"                         # PowerShell CLI
