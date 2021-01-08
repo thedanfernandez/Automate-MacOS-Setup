@@ -33,6 +33,7 @@ brew "jq"                                   # JSON command-line tool
 # brew "kubernetes-helm"                    # Helm client for Kubernetes
 brew "mas"                                  # Mac App store app to download existing apps
 brew "mitmproxy"                            # Free proxy for analyzing web traffic (like Fiddler)
+brew mongodb/brew/mongodb-community-shell
 brew "nmap"                                 # Network utility
 # brew "node", link: false                    # Nodejs language tools
 # brew "npm"                                  # Node Package Manager
