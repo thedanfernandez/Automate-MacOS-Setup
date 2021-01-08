@@ -14,6 +14,7 @@ brew "baobab"                               # Disk Stats
 brew "bash-completion"                      # Bash Completion
 brew "cask"                                 # Required for GUI apps
 brew "ffmpeg"                               # Video editing
+brew "gcc"                                  # Required for Mongodb
 brew "genact"                               # Random CLI simulator
 brew "gh"                                   # GitHub CLI
 brew "git"                                  # Dev tool
@@ -33,7 +34,7 @@ brew "jq"                                   # JSON command-line tool
 # brew "kubernetes-helm"                    # Helm client for Kubernetes
 brew "mas"                                  # Mac App store app to download existing apps
 brew "mitmproxy"                            # Free proxy for analyzing web traffic (like Fiddler)
-brew mongodb/brew/mongodb-community-shell
+brew "mongodb/brew/mongodb-community-shell"   # MongoDB Shell
 brew "nmap"                                 # Network utility
 # brew "node", link: false                    # Nodejs language tools
 # brew "npm"                                  # Node Package Manager
