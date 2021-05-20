@@ -19,9 +19,9 @@ brew "genact"                               # Random CLI simulator
 brew "gh"                                   # GitHub CLI
 brew "git"                                  # Dev tool
 brew "git-extras"                           # Extra git commands for productivity / reporting
-brew "gnu-sed"                              # Dev tool (req)
-brew "golang"                               # Go Language tools
 brew "goenv"                                # Go version management
+brew "golang"                               # Go Language tools
+brew "googler"
 brew "gnu-sed"                              # GNU version of sed
 brew "grafana"                              # grafana dashboard "brew services start grafana"
 brew "graphviz"                             # Lib to visualize data
