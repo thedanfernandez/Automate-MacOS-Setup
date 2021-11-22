@@ -67,6 +67,7 @@ cask "figma"                                # Figma client
 cask "firefox"                              # Firefox browser
 cask "font-cascadia"                        # Cascadia dev font
 cask "google-chrome"                        # Chrome browser
+cask "gswitch"                              # App to switch graphic cards
 cask "kap"                                  # Screen capture animated gifs
 cask "keepingyouawake"                      # Keeps MacOS from going to sleep indefinitely
 cask "kindle"                               # Amazon Kindle app
