@@ -31,8 +31,11 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 mkdir ~/_screenshots
 defaults write com.apple.screencapture location ~/_screenshots
 
-#Add Trash icon to desktop for mac
+# Add Trash icon to desktop for mac
 ln -s ~/.Trash ~/Desktop/Trash
+
+# Disable Dictionary lookup in touchpad (3-finger tap)
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerTapGesture -int 2
 
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"

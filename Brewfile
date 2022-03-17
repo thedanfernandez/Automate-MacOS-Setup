@@ -14,12 +14,14 @@ brew "baobab"                               # Disk Stats
 # brew "bash-completion"                      # Bash Completion
 brew "cask"                                 # Required for GUI apps
 brew "ffmpeg"                               # Video editing
-# brew "genact"                               # Random CLI simulator
-# brew "git"                                  # Dev tool
+brew "gcc"                                  # Required for Mongodb
+brew "genact"                               # Random CLI simulator
+brew "gh"                                   # GitHub CLI
+brew "git"                                  # Dev tool
 brew "git-extras"                           # Extra git commands for productivity / reporting
-brew "gnu-sed"                              # Dev tool (req)
-brew "golang"                               # Go Language tools
 brew "goenv"                                # Go version management
+brew "golang"                               # Go Language tools
+brew "googler"
 brew "gnu-sed"                              # GNU version of sed
 # brew "grafana"                              # grafana dashboard "brew services start grafana"
 # brew "graphviz"                             # Lib to visualize data
@@ -31,18 +33,20 @@ brew "jq"                                   # JSON command-line tool
 # brew "kubernetes-cli"                     # Kubernetes cLI
 # brew "kubernetes-helm"                    # Helm client for Kubernetes
 brew "mas"                                  # Mac App store app to download existing apps
-# brew "mitmproxy"                            # Free proxy for analyzing web traffic (like Fiddler)
+brew "mitmproxy"                            # Free proxy for analyzing web traffic (like Fiddler)
+brew "mongodb/brew/mongodb-community-shell"   # MongoDB Shell
 brew "nmap"                                 # Network utility
-brew "node", link: false                    # Nodejs language tools
-brew "npm"                                  # Node Package Manager
+# brew "node", link: false                    # Nodejs language tools
+# brew "npm"                                  # Node Package Manager
+# brew "nvm"                                  # Node Version Manager
 brew "pandoc"                               # File format converter
 # brew "python3"                              # Python 3 including pip3
 brew "shpotify"                             # CLI for Spotify on Mac
 brew "tldr"                                 # simple, community-drive man pages
 brew "tree"                                 # Tree visualization for directories
-brew "typescript"                           # Typescript language tools
-brew "yarn"                                 # JS/Node package
-brew "yarn-completion"                      # Statement completion for Yarn
+# brew "typescript"                           # Typescript language tools
+# brew "yarn"                                 # JS/Node package
+# brew "yarn-completion"                      # Statement completion for Yarn
 brew "wget"                                 # File download
 brew "youtube-dl"                           # CLI to download Youtube videos
 brew "zsh"                                  # ZSH
@@ -73,6 +77,7 @@ cask "iterm2"                               # Terminal Window app
 # cask "minikube"                             # Local Kubernetes tool
 # cask "mongodb"                              # MongoDB database
 cask "postman"                              # REST-API tool
+cask "postgres"                             # Postgres client app
 # cask "powershell"                         # PowerShell CLI
 cask "robo-3t"                              # MongoDB data tool
 # cask "skype"                                # Skype client
