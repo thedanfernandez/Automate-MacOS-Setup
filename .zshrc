@@ -3,15 +3,9 @@ ZSH_DISABLE_COMPFIX=true
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/dan/.oh-my-zsh"
-
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
 
 ## RENAME PATH FOR YOURSELF!
-export ZSH="/Users/Dan/.oh-my-zsh"
+export ZSH="/Users/daniel.fernandez/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -110,7 +104,7 @@ export ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor line)
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #PowerShell
-alias powershell="/usr/local/microsoft/powershell/6/pwsh ; exit;"
+# alias powershell="/usr/local/microsoft/powershell/6/pwsh ; exit;"
 
 #Chrome for headless chrome
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
