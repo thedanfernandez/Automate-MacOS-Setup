@@ -15,6 +15,7 @@ brew "baobab"                               # Disk Stats
 brew "cask"                                 # Required for GUI apps
 brew "ffmpeg"                               # Video editing
 brew "gcc"                                  # Required for Mongodb
+brew "gcloud"                               # GCP CLI
 brew "genact"                               # Random CLI simulator
 brew "gh"                                   # GitHub CLI
 brew "git"                                  # Dev tool
