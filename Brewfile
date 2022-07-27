@@ -15,7 +15,6 @@ brew "baobab"                               # Disk Stats
 brew "cask"                                 # Required for GUI apps
 brew "ffmpeg"                               # Video editing
 brew "gcc"                                  # Required for Mongodb
-brew "gcloud"                               # GCP CLI
 brew "genact"                               # Random CLI simulator
 brew "gh"                                   # GitHub CLI
 brew "git"                                  # Dev tool
@@ -67,7 +66,8 @@ cask "dotnet-sdk"                           # .NET language tools
 cask "figma"                                # Figma client
 cask "firefox"                              # Firefox browser
 cask "font-cascadia"                        # Cascadia dev font
-# cask "google-chrome"                        # Chrome browser
+cask "google-chrome"                        # Chrome browser
+cask "google-cloud-sdk"
 cask "kap"                                  # Screen capture animated gifs
 cask "keepingyouawake"                      # Keeps MacOS from going to sleep indefinitely
 cask "kindle"                               # Amazon Kindle app
